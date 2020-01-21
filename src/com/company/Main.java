@@ -3,8 +3,7 @@ package com.company;
 import java.io.*;
 import java.util.*;
 
-class InsertionSort {
-    /*Function to sort array using insertion sort*/
+class InsertionSort {    
     void sort(int[] arr) {
         int n = arr.length;
         for (int i = 1; i < n; ++i) {
